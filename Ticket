@@ -1,0 +1,15 @@
+def caught_speeding(speed, is_birthday):
+    while is_birthday == True:
+        if speed > 66 and speed < 86:
+            return ("Small Ticket")
+        elif speed >=86:
+            return ('Big Ticket')
+        else:
+            return ('No Ticket')
+    else:
+        if speed > 61 and speed < 81:
+            return ("Small Ticket")
+        elif speed >=81:
+            return ('Big Ticket')
+        else:
+            return ('No Ticket')
