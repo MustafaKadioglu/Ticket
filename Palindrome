@@ -1,0 +1,11 @@
+import string
+def pal_find():
+    strg=raw_input().lower()
+    text=''
+    for lt in strg:
+        if lt in string.ascii_lowercase:
+            text+=lt
+    if text == text[::-1]:
+        return 'Y'
+    else:
+        return 'N'
