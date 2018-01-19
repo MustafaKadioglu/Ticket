@@ -1,0 +1,9 @@
+def fib():
+    n = int(raw_input("please enter a number ",))
+    result=[]
+    a,b= 0,1
+    while n>= 1:
+        result.append(b)
+        n -= 1
+        a,b = b, a+b
+    return result
